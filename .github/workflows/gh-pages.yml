@@ -22,7 +22,7 @@ jobs:
           # extended: true
 
       - name: AddSubModule
-        run: git submodule add https://github.com/pacollins/hugo-future-imperfect-slim.git themes/hugo-future-imperfect-slim
+        run: git submodule update --init --recursive
 
       - name: Build
         run: hugo --minify
