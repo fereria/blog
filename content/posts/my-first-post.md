@@ -6,12 +6,4 @@ categories : ["Sample"]
 tags : ["Hello","World"]
 ---
 
-サンプルで記事を書きます。
-
-```python
-from pxr import Usd
-
-stage = Usd.Stage.CreateInMemory()
-```
-
-![](https://i.gyazo.com/02f144023161961697425c685a0c59fb.png)
+このページはHugo＋GithubPagesを使用して作成した趣味用Blogです。
