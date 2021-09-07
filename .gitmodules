@@ -1,15 +1,3 @@
-[submodule "themes/ananke"]
-	path = themes/ananke
-	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
-[submodule "minimo"]
-	path = minimo
-	url = https://github.com/MunifTanjim/minimo.git
-[submodule "themes/hugo-theme-stack"]
-	path = themes/hugo-theme-stack
-	url = https://github.com/CaiJimmy/hugo-theme-stack.git
-[submodule "themes/hugo-theme-bootstrap"]
-	path = themes/hugo-theme-bootstrap
-	url = https://github.com/razonyang/hugo-theme-bootstrap
 [submodule "themes/hugo-future-imperfect-slim"]
 	path = themes/hugo-future-imperfect-slim
 	url = https://github.com/pacollins/hugo-future-imperfect-slim.git
