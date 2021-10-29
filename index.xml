@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reincarnation+</title><link>https://fereria.github.io/blog/</link><description>Recent content on Reincarnation+</description><generator>Hugo -- gohugo.io</generator><language>ja</language><atom:link href="https://fereria.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://fereria.github.io/blog/about/</link><pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate><guid>https://fereria.github.io/blog/about/</guid><description>コロナ前までは、カメラ片手に新幹線と飛行機とレンタカーで日本全国を旅していた ゲーム業界のどこかに生息するツールパイプラインプログラマ。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reincarnation+</title><link>https://fereria.github.io/blog/</link><description>Recent content on Reincarnation+</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sat, 30 Oct 2021 00:53:23 +0900</lastBuildDate><atom:link href="https://fereria.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog始めます</title><link>https://fereria.github.io/blog/posts/sample/</link><pubDate>Sat, 30 Oct 2021 00:53:23 +0900</pubDate><guid>https://fereria.github.io/blog/posts/sample/</guid><description>以前はWordpressを使用した旅行・プログラミング・CGなんでもOKなごちゃまぜBlogを運用していたのですが WordPressの運用がしんどいのと、調べたものを見直すにしても重すぎて使えん！！ということで 閉鎖していました。
+なのですが、ぼちぼちコロナも落ち着いてきたし 年末ごろに５月ごろに注文した車も納車されて、いろいろお出かけができるようになりそうなので 趣味やら旅行やらをだらだらと書き続ける趣味な内容や、 その週に書いたTechページまとめみたいなことをだらだら書き続けるBlogにしようと思います。
+現状はいくつかページがあるのですが、使い分けとして
+Reincarnation+#Tech https://fereria.github.io/reincarnation_tech/
+調べた内容をまとめるWiki的なもの。 調べて整理した情報をひたすら蓄積するための場所。 カテゴリごとにページを作り、アップデートされたらページを編集する。 自分の見直し用公開ノート
+Zenn https://zenn.dev/remiria
+検証したりした内容を積んでいく場所。 時系列を持つ技術記事を書く場所。 Reincarnation+#Techとの違いは、その時調べた状態はそのままに次は新しい記事として積んでいく点。 技術専用Blogという扱い？
+技術記事は書かない。 旅ログ、趣味ネタ（PC作ったとか、カメラ買ったとか、車関連とか）をつらつら書くところ。 Techページの更新ログ
+こんな感じにしようと思います。
+そんなこんなでこのサイトもよろしくお願いします。</description></item><item><title>About</title><link>https://fereria.github.io/blog/about/</link><pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate><guid>https://fereria.github.io/blog/about/</guid><description>コロナ前までは、カメラ片手に新幹線と飛行機とレンタカーで日本全国を旅していた ゲーム業界のどこかに生息するツールパイプラインプログラマ。
 今はロードバイクで近所をサイクリングしつつ、年末納車予定の車を相棒に 旅行再開を心待ちにしていたり。
 技術記事関連
 https://fereria.github.io/reincarnation_tech https://zenn.dev/remiria</description></item><item><title>Contact</title><link>https://fereria.github.io/blog/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fereria.github.io/blog/contact/</guid><description/></item></channel></rss>
