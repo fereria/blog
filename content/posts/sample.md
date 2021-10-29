@@ -1,7 +1,7 @@
 ---
 title: "Blog始めます"
 date: 2021-10-30T00:53:23+09:00
-draft: true
+draft: false
 ---
 
 以前はWordpressを使用した旅行・プログラミング・CGなんでもOKなごちゃまぜBlogを運用していたのですが
