@@ -2,6 +2,7 @@
 title: "Blog始めます"
 date: 2021-10-30T00:53:23+09:00
 draft: false
+categories: ["雑談"]
 ---
 
 以前はWordpressを使用した旅行・プログラミング・CGなんでもOKなごちゃまぜBlogを運用していたのですが
