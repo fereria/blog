@@ -5,9 +5,8 @@ draft: false
 categories: ["雑談"]
 ---
 
-[Universal Scene Description Advenc Calendar 2021](https://qiita.com/advent-calendar/2021/usd) という狂気のアドカレをやると宣言してしまったので
-ここ最近準備をしているので、このヤバい取り組みをどうやって乗り越えるかの作戦と
-基本方針について書いておこうと思います。
+[Universal Scene Description Advenc Calendar 2021](https://qiita.com/advent-calendar/2021/usd) という狂気のアドカレをやると宣言してしまったのでここ最近準備をしているわけですが、
+このヤバい取り組みをどうやって乗り越えるかの作戦と基本方針について書いておこうと思います。
 
 埋めるのはヘルツさんと技師長師匠のお二人以外の20日分（＋Houdiniアドカレ１件）
 書くネタはそこそこあるので、埋められるとは思うものの、どういったこと書くといいのかは
