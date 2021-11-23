@@ -22,10 +22,15 @@ categories: ["雑談"]
 私自身のポリシーとして、仕事にかかわるもの・仕事で得た運用ノウハウなどは
 一切書くつもりはないので　今回のアドカレでもそういう内容には触れません。
 
-## 予定
+## 投稿先
+
+投稿先は、[Zenn](https://zenn.dev/remiria) or [Techページ](https://fereria.github.io/reincarnation_tech/11_Pipeline/)です（Techページのほうが多め）。
+
+## 予定構成
 
 HoudiniアドカレでのComponentBuilder、３日目に技師長師匠のネタにのって Houdini InlineUSDあたりをやる予定ですが
 それ以外は基本USDの技術 Python or C++ の実装、基本知識の解説を予定しています。
+基本説明含めて、Python比率多めです。
 
 というのを踏まえてやる内容は以下の通り。
 
@@ -45,7 +50,6 @@ HoudiniアドカレでのComponentBuilder、３日目に技師長師匠のネタ
     * usdcat
     * usdrecord
     * usdchecker
-* 
 * C++
   * Pluginの作り方
   * AssetResolution
@@ -61,6 +65,8 @@ HoudiniアドカレでのComponentBuilder、３日目に技師長師匠のネタ
 
 AssetResolverは、usdresolve usdzip を含めてかなり大きい内容なので
 これだけで２～３記事消化予定。
+最近Resolver回りでずっと遊んでいたのですが、このあたりが個人的なUSDの強いところだと思ってるので
+今回のメインになるかなぁと思われます。
 基本部分やPythonは、[NoteBook](https://fereria.github.io/reincarnation_tech/60_JupyterNotebook/USD/APISchema/USDCollectoinSample/ )で書くだけかいたけど文章化してないものなんかを中心に書きます。
 
 Toolsは、コマンドラインツールとしての使い方というよりはPythonでの実装回り。
