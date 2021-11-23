@@ -2,7 +2,8 @@
 埋めるのはヘルツさんと技師長師匠のお二人以外の20日分（＋Houdiniアドカレ１件） 書くネタはそこそこあるので、埋められるとは思うものの、どういったこと書くといいのかは 去年の年末ごろから実は考えていましたが、基本方針は以下のようにします。
 基本方針 まず、多くの人はUSDをつかってどのように運用したりパイプラインを構築したらいいのか 知りたいという人もいるかと思いますが、そのあたりは基本書きません。
 というのも、パイプライン構築は会社の規模や分野（ゲーム、映像等々）によっても 大きく異なるというのと 私自身のポリシーとして、仕事にかかわるもの・仕事で得た運用ノウハウなどは 一切書くつもりはないので　今回のアドカレでもそういう内容には触れません。
-予定 HoudiniアドカレでのComponentBuilder、３日目に技師長師匠のネタにのって Houdini InlineUSDあたりをやる予定ですが それ以外は基本USDの技術 Python or C++ の実装、基本知識の解説を予定しています。
+投稿先 投稿先は、Zenn or Techページです（Techページのほうが多め）。
+予定構成 HoudiniアドカレでのComponentBuilder、３日目に技師長師匠のネタにのって Houdini InlineUSDあたりをやる予定ですが それ以外は基本USDの技術 Python or C++ の実装、基本知識の解説を予定しています。 基本説明含めて、Python比率多めです。
 というのを踏まえてやる内容は以下の通り。
 USDの基本説明 Attribute - Relation - Property PopulationMask AssetInfo Schema（IsA/Conclete/API/Multi-Applyed) Python コンポジションアーク SceneTraverse usdviewPlugin Tools usdview usdresolve usdzip usdcat usdrecord usdchecker C++ Pluginの作り方 AssetResolution FileFormatPlugin Houdini Inline USD ComponentBuilder そのほか USDを語る 以上。 順番は気分次第で変わります。</description></item><item><title>Blog始めます</title><link>https://fereria.github.io/blog/posts/sample/</link><pubDate>Sat, 30 Oct 2021 00:53:23 +0900</pubDate><guid>https://fereria.github.io/blog/posts/sample/</guid><description>以前はWordpressを使用した旅行・プログラミング・CGなんでもOKなごちゃまぜBlogを運用していたのですが WordPressの運用がしんどいのと、調べたものを見直すにしても重すぎて使えん！！ということで 閉鎖していました。
 なのですが、ぼちぼちコロナも落ち着いてきたし 年末ごろに５月ごろに注文した車も納車されて、いろいろお出かけができるようになりそうなので 趣味やら旅行やらをだらだらと書き続ける趣味な内容や、 その週に書いたTechページまとめみたいなことをだらだら書き続けるBlogにしようと思います。
