@@ -2,6 +2,7 @@
 title: "USDアドカレ対策"
 date: 2021-11-23T20:49:01+09:00
 draft: false
+categories: ["雑談"]
 ---
 
 [Universal Scene Description Advenc Calendar 2021](https://qiita.com/advent-calendar/2021/usd) という狂気のアドカレをやると宣言してしまったので
