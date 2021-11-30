@@ -1,28 +1,84 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Reincarnation+</title><link>https://fereria.github.io/blog/posts/</link><description>Recent content in Posts on Reincarnation+</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 01 Dec 2021 00:00:47 +0900</lastBuildDate><atom:link href="https://fereria.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Advent Calendarハジマルヨー</title><link>https://fereria.github.io/blog/posts/usd_advenct_calendar/</link><pubDate>Wed, 01 Dec 2021 00:00:47 +0900</pubDate><guid>https://fereria.github.io/blog/posts/usd_advenct_calendar/</guid><description>さて、狂気のAdvent Calendar Universal Scene Description 1日目。 最初は、テクニカルな記事というより、 これまでのUSDについての概要（過去主要記事まとめ）や以降の記事の方針、 個人的なUSDへの考え方についてを書いていこうと思います。
-まずはじめに USDがどんなものかは、以前書いた USDとはに書いてありますので詳細は省きますが、 ざっくりと書くとPixarが公開しているシーングラフを扱うオープンソースのライブラリです。 この記事を書いている段階で version 21.11 が、GithubのUSDリポジトリで公開されています。 現在もライブラリ本体も常に進化を続け、さらに対応するツールもここ数年で大幅に増えてきており、 世界的に見てもシーングラフを扱うライブラリとしては標準的なフォーマットになりつつあるのではないかと思います。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Reincarnation+</title><link>https://fereria.github.io/blog/posts/</link><description>Recent content in Posts on Reincarnation+</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 01 Dec 2021 00:00:47 +0900</lastBuildDate><atom:link href="https://fereria.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Advent Calendarハジマルヨー</title><link>https://fereria.github.io/blog/posts/usd_advenct_calendar/</link><pubDate>Wed, 01 Dec 2021 00:00:47 +0900</pubDate><guid>https://fereria.github.io/blog/posts/usd_advenct_calendar/</guid><description>さて、狂気のAdvent Calendar Universal Scene Description 1日目。
+最初は、テクニカルな記事というより、
+これまでのUSDについての概要（過去主要記事まとめ）や以降の記事の方針、
+個人的なUSDへの考え方についてを書いていこうと思います。
+まずはじめに USDがどんなものかは、以前書いた USDとはに書いてありますので詳細は省きますが、
+ざっくりと書くとPixarが公開しているシーングラフを扱うオープンソースのライブラリです。
+この記事を書いている段階で version 21.11 が、GithubのUSDリポジトリで公開されています。
+現在もライブラリ本体も常に進化を続け、さらに対応するツールもここ数年で大幅に増えてきており、
+世界的に見てもシーングラフを扱うライブラリとしては標準的なフォーマットになりつつあるのではないかと思います。
 勉強を始めた理由 そんな中、私が勉強を開始したのが2019年の夏頃です。
-自分自身が勉強を始めた理由はいろいろとありますが、 2019年のSIGGRAPHに参加して、各種パイプラインのセッションで当たり前のように導入が語られていたことです。 これだけ語られるということは、 近い将来どのソフトウェアにも導入され当たり前に扱われる未来が来るはずです。 それならば早いうちに勉強を開始するに越したことはないと思い、 本腰をいれて勉強を開始しました。
-パイプラインまわりは、どこも手探りなところが多く問題を解決する手段を探している事が多いと思います。 そんな中で、海外のすごいエンジニアやアーティストが、議論を重ね、実践を重ね、そして洗練してきたものであれば 問題を解決するための答えが得られるのではないか？と、考えました。
-実際、USDは 大規模なシーングラフを扱うことのできる強固なフォーマットであり、 さらにはコンポジションアークを代表する多数のファイルをオーサリングのための機能や、 ファイルフォーマットプラグインのような、既存のデータを組み込んだり動的にシーングラフを構築する機能、 カスタムスキーマのような、カスタマイズを可能にする各種API等々。 さらに、USDを使う上で便利なプレビューツールであるusdview含めた実用的な各種ツールセット。
+自分自身が勉強を始めた理由はいろいろとありますが、
+2019年のSIGGRAPHに参加して、各種パイプラインのセッションで当たり前のように導入が語られていたことです。
+これだけ語られるということは、
+近い将来どのソフトウェアにも導入され当たり前に扱われる未来が来るはずです。
+それならば早いうちに勉強を開始するに越したことはないと思い、
+本腰をいれて勉強を開始しました。
+パイプラインまわりは、どこも手探りなところが多く問題を解決する手段を探している事が多いと思います。
+そんな中で、海外のすごいエンジニアやアーティストが、議論を重ね、実践を重ね、そして洗練してきたものであれば
+問題を解決するための答えが得られるのではないか？と、考えました。
+実際、USDは
+大規模なシーングラフを扱うことのできる強固なフォーマットであり、
+さらにはコンポジションアークを代表する多数のファイルをオーサリングのための機能や、
+ファイルフォーマットプラグインのような、既存のデータを組み込んだり動的にシーングラフを構築する機能、
+カスタムスキーマのような、カスタマイズを可能にする各種API等々。
+さらに、USDを使う上で便利なプレビューツールであるusdview含めた実用的な各種ツールセット。
 それらの多くが、パイプラインを作る上で非常に強力な機能を持っています。
-パイプラインツールとしてのUSD 最初に書いた通り、2021年現在DCCツールの対応がだいぶ進み、 主要なツールでは USDのImport・Exportが可能になり HoudiniのSOLARISやBlenderUSDHydraAddon、Katana等を使用すればライティングやレンダリングが可能になりました。 また、OmniverseのようなUSDをベースにした強力な共同開発環境も登場しています。
-それらのツールは非常に便利で、誰でもUSDを扱える環境ができつつあります。 ですが、それと同時に（それ以上に）個人的USDはパイプラインを構築するためのツールだと思うので、 そのUSDの仕組みや、その構造、ライブラリの機能を利用してどのようにパイプラインを構築できるのか？ といったことが、とても大切なのではないかと思います。
-アドカレ記事について というわけで、アドカレを始めるにあたりどういった内容をメインにするか考えていましたが、 https://fereria.github.io/blog/posts/usdadventcalendar2021/ 事前の雑談Blogにも書きましたが、学習理由にもあるとおり以下のような方針でいきます。
-USDの機能や実装方法についてを書く（具体的な事例等は書かない） 過去記事・JupyterNotebookにだけ書いたような内容の記事化 DCCツールの使い方は書かない（Python C++ の実装側メイン） 自分の学習結果を書く Houdiniに関しては、 https://qiita.com/advent-calendar/2021/happrentice Houdini Apprentice ２日目に InlineUSDについて。 https://qiita.com/advent-calendar/2021/houdini Houdini １２日目に、コンポーネントビルダーについてを投稿予定です。
-ある程度事前に調査・テスト実装などはしていますが、 特にC++絡みは自分も勉強しながらなのでミスやら勘違いはお許しください（突っ込まれたら直します）</description></item><item><title>USDアドカレ対策</title><link>https://fereria.github.io/blog/posts/usdadventcalendar2021/</link><pubDate>Tue, 23 Nov 2021 20:49:01 +0900</pubDate><guid>https://fereria.github.io/blog/posts/usdadventcalendar2021/</guid><description>Universal Scene Description Advenc Calendar 2021 という狂気のアドカレをやると宣言してしまったのでここ最近準備をしているわけですが、 このヤバい取り組みをどうやって乗り越えるかの作戦と基本方針について書いておこうと思います。
-埋めるのはヘルツさんと技師長師匠のお二人以外の20日分（＋Houdiniアドカレ１件） 書くネタはそこそこあるので、埋められるとは思うものの、どういったこと書くといいのかは 去年の年末ごろから実は考えていましたが、基本方針は以下のようにします。
-基本方針 まず、多くの人はUSDをつかってどのように運用したりパイプラインを構築したらいいのか 知りたいという人もいるかと思いますが、そのあたりは基本書きません。
-というのも、パイプライン構築は会社の規模や分野（ゲーム、映像等々）によっても 大きく異なるというのと 私自身のポリシーとして、仕事にかかわるもの・仕事で得た運用ノウハウなどは 一切書くつもりはないので　今回のアドカレでもそういう内容には触れません。
+パイプラインツールとしてのUSD 最初に書いた通り、2021年現在DCCツールの対応がだいぶ進み、
+主要なツールでは USDのImport・Exportが可能になり
+HoudiniのSOLARISやBlenderUSDHydraAddon、Katana等を使用すればライティングやレンダリングが可能になりました。
+また、OmniverseのようなUSDをベースにした強力な共同開発環境も登場しています。
+それらのツールは非常に便利で、誰でもUSDを扱える環境ができつつあります。
+ですが、それと同時に（それ以上に）個人的USDはパイプラインを構築するためのツールだと思うので、
+そのUSDの仕組みや、その構造、ライブラリの機能を利用してどのようにパイプラインを構築できるのか？
+といったことが、とても大切なのではないかと思います。
+アドカレ記事について というわけで、アドカレを始めるにあたりどういった内容をメインにするか考えていましたが、
+https://fereria.github.io/blog/posts/usdadventcalendar2021/
+事前の雑談Blogにも書きましたが、学習理由にもあるとおり以下のような方針でいきます。
+USDの機能や実装方法についてを書く（具体的な事例等は書かない） 過去記事・JupyterNotebookにだけ書いたような内容の記事化 DCCツールの使い方は書かない（Python C++ の実装側メイン） 自分の学習結果を書く Houdiniに関しては、
+https://qiita.com/advent-calendar/2021/happrentice
+Houdini Apprentice ２日目に InlineUSDについて。
+https://qiita.com/advent-calendar/2021/houdini
+Houdini １２日目に、コンポーネントビルダーについてを投稿予定です。
+ある程度事前に調査・テスト実装などはしていますが、
+特にC++絡みは自分も勉強しながらなのでミスやら勘違いはお許しください（突っ込まれたら直します）</description></item><item><title>USDアドカレ対策</title><link>https://fereria.github.io/blog/posts/usdadventcalendar2021/</link><pubDate>Tue, 23 Nov 2021 20:49:01 +0900</pubDate><guid>https://fereria.github.io/blog/posts/usdadventcalendar2021/</guid><description>Universal Scene Description Advenc Calendar 2021 という狂気のアドカレをやると宣言してしまったのでここ最近準備をしているわけですが、
+このヤバい取り組みをどうやって乗り越えるかの作戦と基本方針について書いておこうと思います。
+埋めるのはヘルツさんと技師長師匠のお二人以外の20日分（＋Houdiniアドカレ１件）
+書くネタはそこそこあるので、埋められるとは思うものの、どういったこと書くといいのかは
+去年の年末ごろから実は考えていましたが、基本方針は以下のようにします。
+基本方針 まず、多くの人はUSDをつかってどのように運用したりパイプラインを構築したらいいのか
+知りたいという人もいるかと思いますが、そのあたりは基本書きません。
+というのも、パイプライン構築は会社の規模や分野（ゲーム、映像等々）によっても
+大きく異なるというのと
+私自身のポリシーとして、仕事にかかわるもの・仕事で得た運用ノウハウなどは
+一切書くつもりはないので　今回のアドカレでもそういう内容には触れません。
 投稿先 投稿先は、Zenn or Techページです（Techページのほうが多め）。
-予定構成 HoudiniアドカレでのComponentBuilder、３日目に技師長師匠のネタにのって Houdini InlineUSDあたりをやる予定ですが それ以外は基本USDの技術 Python or C++ の実装、基本知識の解説を予定しています。 基本説明含めて、Python比率多めです。
+予定構成 HoudiniアドカレでのComponentBuilder、３日目に技師長師匠のネタにのって Houdini InlineUSDあたりをやる予定ですが
+それ以外は基本USDの技術 Python or C++ の実装、基本知識の解説を予定しています。
+基本説明含めて、Python比率多めです。
 というのを踏まえてやる内容は以下の通り。
-USDの基本説明 Attribute - Relation - Property PopulationMask AssetInfo Schema（IsA/Conclete/API/Multi-Applyed) Python コンポジションアーク SceneTraverse usdviewPlugin Tools usdview usdresolve usdzip usdcat usdrecord usdchecker C++ Pluginの作り方 AssetResolution FileFormatPlugin Houdini Inline USD ComponentBuilder そのほか USDを語る 以上。 順番は気分次第で変わります。</description></item><item><title>Blog始めます</title><link>https://fereria.github.io/blog/posts/sample/</link><pubDate>Sat, 30 Oct 2021 00:53:23 +0900</pubDate><guid>https://fereria.github.io/blog/posts/sample/</guid><description>以前はWordpressを使用した旅行・プログラミング・CGなんでもOKなごちゃまぜBlogを運用していたのですが WordPressの運用がしんどいのと、調べたものを見直すにしても重すぎて使えん！！ということで 閉鎖していました。
-なのですが、ぼちぼちコロナも落ち着いてきたし 年末ごろに５月ごろに注文した車も納車されて、いろいろお出かけができるようになりそうなので 趣味やら旅行やらをだらだらと書き続ける趣味な内容や、 その週に書いたTechページまとめみたいなことをだらだら書き続けるBlogにしようと思います。
+USDの基本説明 Attribute - Relation - Property PopulationMask AssetInfo Schema（IsA/Conclete/API/Multi-Applyed) Python コンポジションアーク SceneTraverse usdviewPlugin Tools usdview usdresolve usdzip usdcat usdrecord usdchecker C++ Pluginの作り方 AssetResolution FileFormatPlugin Houdini Inline USD ComponentBuilder そのほか USDを語る 以上。</description></item><item><title>Blog始めます</title><link>https://fereria.github.io/blog/posts/sample/</link><pubDate>Sat, 30 Oct 2021 00:53:23 +0900</pubDate><guid>https://fereria.github.io/blog/posts/sample/</guid><description>以前はWordpressを使用した旅行・プログラミング・CGなんでもOKなごちゃまぜBlogを運用していたのですが
+WordPressの運用がしんどいのと、調べたものを見直すにしても重すぎて使えん！！ということで
+閉鎖していました。
+なのですが、ぼちぼちコロナも落ち着いてきたし
+年末ごろに５月ごろに注文した車も納車されて、いろいろお出かけができるようになりそうなので
+趣味やら旅行やらをだらだらと書き続ける趣味な内容や、
+その週に書いたTechページまとめみたいなことをだらだら書き続けるBlogにしようと思います。
 現状はいくつかページがあるのですが、使い分けとして
-Reincarnation+#Tech https://fereria.github.io/reincarnation_tech/
-調べた内容をまとめるWiki的なもの。 調べて整理した情報をひたすら蓄積するための場所。 カテゴリごとにページを作り、アップデートされたらページを編集する。 自分の見直し用公開ノート
-Zenn https://zenn.dev/remiria
-検証したりした内容を積んでいく場所。 時系列を持つ技術記事を書く場所。 Reincarnation+#Techとの違いは、その時調べた状態はそのままに次は新しい記事として積んでいく点。 技術専用Blogという扱い？
-技術記事は書かない。 旅ログ、趣味ネタ（PC作ったとか、カメラ買ったとか、車関連とか）をつらつら書くところ。 Techページの更新ログ
+Reincarnation+#Tech
+https://fereria.github.io/reincarnation_tech/
+調べた内容をまとめるWiki的なもの。
+調べて整理した情報をひたすら蓄積するための場所。
+カテゴリごとにページを作り、アップデートされたらページを編集する。
+自分の見直し用公開ノート
+Zenn
+https://zenn.dev/remiria
+検証したりした内容を積んでいく場所。
+時系列を持つ技術記事を書く場所。
+Reincarnation+#Techとの違いは、その時調べた状態はそのままに次は新しい記事として積んでいく点。
+技術専用Blogという扱い？
+技術記事は書かない。
+旅ログ、趣味ネタ（PC作ったとか、カメラ買ったとか、車関連とか）をつらつら書くところ。
+Techページの更新ログ
 こんな感じにしようと思います。
 そんなこんなでこのサイトもよろしくお願いします。</description></item></channel></rss>

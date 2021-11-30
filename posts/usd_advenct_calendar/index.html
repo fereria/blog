@@ -84,46 +84,46 @@ Advent Calendarハジマルヨー
 </a>
 </div>
 <div class=content>
-<p>さて、狂気のAdvent Calendar <a href=https://qiita.com/advent-calendar/2021/usd>Universal Scene Description</a> 1日目。
-最初は、テクニカルな記事というより、
-これまでのUSDについての概要（過去主要記事まとめ）や以降の記事の方針、
+<p>さて、狂気のAdvent Calendar <a href=https://qiita.com/advent-calendar/2021/usd>Universal Scene Description</a> 1日目。<br>
+最初は、テクニカルな記事というより、<br>
+これまでのUSDについての概要（過去主要記事まとめ）や以降の記事の方針、<br>
 個人的なUSDへの考え方についてを書いていこうと思います。</p>
 <h2 id=まずはじめに>まずはじめに</h2>
-<p>USDがどんなものかは、以前書いた <a href=https://fereria.github.io/reincarnation_tech/11_Pipeline/01_USD/02_whats_USD/>USDとは</a>に書いてありますので詳細は省きますが、
-ざっくりと書くとPixarが公開しているシーングラフを扱うオープンソースのライブラリです。
-この記事を書いている段階で version 21.11 が、<a href=https://github.com/PixarAnimationStudios/USD/>GithubのUSDリポジトリ</a>で公開されています。
-現在もライブラリ本体も常に進化を続け、さらに対応するツールもここ数年で大幅に増えてきており、
+<p>USDがどんなものかは、以前書いた <a href=https://fereria.github.io/reincarnation_tech/11_Pipeline/01_USD/02_whats_USD/>USDとは</a>に書いてありますので詳細は省きますが、<br>
+ざっくりと書くとPixarが公開しているシーングラフを扱うオープンソースのライブラリです。<br>
+この記事を書いている段階で version 21.11 が、<a href=https://github.com/PixarAnimationStudios/USD/>GithubのUSDリポジトリ</a>で公開されています。<br>
+現在もライブラリ本体も常に進化を続け、さらに対応するツールもここ数年で大幅に増えてきており、<br>
 世界的に見てもシーングラフを扱うライブラリとしては標準的なフォーマットになりつつあるのではないかと思います。</p>
 <h3 id=勉強を始めた理由>勉強を始めた理由</h3>
 <p>そんな中、私が勉強を開始したのが2019年の夏頃です。</p>
-<p>自分自身が勉強を始めた理由はいろいろとありますが、
-2019年のSIGGRAPHに参加して、各種パイプラインのセッションで当たり前のように導入が語られていたことです。
-これだけ語られるということは、
-近い将来どのソフトウェアにも導入され当たり前に扱われる未来が来るはずです。
-それならば早いうちに勉強を開始するに越したことはないと思い、
+<p>自分自身が勉強を始めた理由はいろいろとありますが、<br>
+2019年のSIGGRAPHに参加して、各種パイプラインのセッションで当たり前のように導入が語られていたことです。<br>
+これだけ語られるということは、<br>
+近い将来どのソフトウェアにも導入され当たり前に扱われる未来が来るはずです。<br>
+それならば早いうちに勉強を開始するに越したことはないと思い、<br>
 本腰をいれて勉強を開始しました。</p>
-<p>パイプラインまわりは、どこも手探りなところが多く問題を解決する手段を探している事が多いと思います。
-そんな中で、海外のすごいエンジニアやアーティストが、議論を重ね、実践を重ね、そして洗練してきたものであれば
+<p>パイプラインまわりは、どこも手探りなところが多く問題を解決する手段を探している事が多いと思います。<br>
+そんな中で、海外のすごいエンジニアやアーティストが、議論を重ね、実践を重ね、そして洗練してきたものであれば<br>
 問題を解決するための答えが得られるのではないか？と、考えました。</p>
-<p>実際、USDは
-大規模なシーングラフを扱うことのできる強固なフォーマットであり、
-さらには<a href=https://fereria.github.io/reincarnation_tech/11_Pipeline/01_USD/05_comp_arc/>コンポジションアーク</a>を代表する多数のファイルをオーサリングのための機能や、
-<a href=https://zenn.dev/remiria/articles/c6470aea5f6f59>ファイルフォーマットプラグイン</a>のような、既存のデータを組み込んだり動的にシーングラフを構築する機能、
-<a href=https://fereria.github.io/reincarnation_tech/11_Pipeline/10_USDTips/00_create_custom_schema/>カスタムスキーマ</a>のような、カスタマイズを可能にする各種API等々。
+<p>実際、USDは<br>
+大規模なシーングラフを扱うことのできる強固なフォーマットであり、<br>
+さらには<a href=https://fereria.github.io/reincarnation_tech/11_Pipeline/01_USD/05_comp_arc/>コンポジションアーク</a>を代表する多数のファイルをオーサリングのための機能や、<br>
+<a href=https://zenn.dev/remiria/articles/c6470aea5f6f59>ファイルフォーマットプラグイン</a>のような、既存のデータを組み込んだり動的にシーングラフを構築する機能、<br>
+<a href=https://fereria.github.io/reincarnation_tech/11_Pipeline/10_USDTips/00_create_custom_schema/>カスタムスキーマ</a>のような、カスタマイズを可能にする各種API等々。<br>
 さらに、USDを使う上で便利なプレビューツールであるusdview含めた実用的な各種ツールセット。</p>
 <p>それらの多くが、パイプラインを作る上で非常に強力な機能を持っています。</p>
 <h3 id=パイプラインツールとしてのusd>パイプラインツールとしてのUSD</h3>
-<p>最初に書いた通り、2021年現在DCCツールの対応がだいぶ進み、
-主要なツールでは USDのImport・Exportが可能になり
-HoudiniのSOLARISやBlenderUSDHydraAddon、Katana等を使用すればライティングやレンダリングが可能になりました。
+<p>最初に書いた通り、2021年現在DCCツールの対応がだいぶ進み、<br>
+主要なツールでは USDのImport・Exportが可能になり<br>
+HoudiniのSOLARISやBlenderUSDHydraAddon、Katana等を使用すればライティングやレンダリングが可能になりました。<br>
 また、OmniverseのようなUSDをベースにした強力な共同開発環境も登場しています。</p>
-<p>それらのツールは非常に便利で、誰でもUSDを扱える環境ができつつあります。
-ですが、それと同時に（それ以上に）個人的USDはパイプラインを構築するためのツールだと思うので、
-そのUSDの仕組みや、その構造、ライブラリの機能を利用してどのようにパイプラインを構築できるのか？
+<p>それらのツールは非常に便利で、誰でもUSDを扱える環境ができつつあります。<br>
+ですが、それと同時に（それ以上に）個人的USDはパイプラインを構築するためのツールだと思うので、<br>
+そのUSDの仕組みや、その構造、ライブラリの機能を利用してどのようにパイプラインを構築できるのか？<br>
 といったことが、とても大切なのではないかと思います。</p>
 <h2 id=アドカレ記事について>アドカレ記事について</h2>
-<p>というわけで、アドカレを始めるにあたりどういった内容をメインにするか考えていましたが、
-<a href=https://fereria.github.io/blog/posts/usdadventcalendar2021/>https://fereria.github.io/blog/posts/usdadventcalendar2021/</a>
+<p>というわけで、アドカレを始めるにあたりどういった内容をメインにするか考えていましたが、<br>
+<a href=https://fereria.github.io/blog/posts/usdadventcalendar2021/>https://fereria.github.io/blog/posts/usdadventcalendar2021/</a><br>
 事前の雑談Blogにも書きましたが、学習理由にもあるとおり以下のような方針でいきます。</p>
 <ol>
 <li>USDの機能や実装方法についてを書く（具体的な事例等は書かない）</li>
@@ -131,18 +131,18 @@ HoudiniのSOLARISやBlenderUSDHydraAddon、Katana等を使用すればライテ�
 <li>DCCツールの使い方は書かない（Python C++ の実装側メイン）</li>
 <li>自分の学習結果を書く</li>
 </ol>
-<p>Houdiniに関しては、
-<a href=https://qiita.com/advent-calendar/2021/happrentice>https://qiita.com/advent-calendar/2021/happrentice</a>
-Houdini Apprentice ２日目に InlineUSDについて。
-<a href=https://qiita.com/advent-calendar/2021/houdini>https://qiita.com/advent-calendar/2021/houdini</a>
+<p>Houdiniに関しては、<br>
+<a href=https://qiita.com/advent-calendar/2021/happrentice>https://qiita.com/advent-calendar/2021/happrentice</a><br>
+Houdini Apprentice ２日目に InlineUSDについて。<br>
+<a href=https://qiita.com/advent-calendar/2021/houdini>https://qiita.com/advent-calendar/2021/houdini</a><br>
 Houdini １２日目に、コンポーネントビルダーについてを投稿予定です。</p>
-<p>ある程度事前に調査・テスト実装などはしていますが、
+<p>ある程度事前に調査・テスト実装などはしていますが、<br>
 特にC++絡みは自分も勉強しながらなのでミスやら勘違いはお許しください（突っ込まれたら直します）</p>
-<p>これから１か月、どこまでいけるかわかりませんが最後までどうぞお付き合いください。
+<p>これから１か月、どこまでいけるかわかりませんが最後までどうぞお付き合いください。<br>
 よろしくお願いします。</p>
 <p>次は、HoudiniApprentice２日目で InlineUSDについて書きます。</p>
 <h2 id=いつも参考にしているリンクなど>いつも参考にしているリンクなど</h2>
-<p>最後に、日ごろUSDを調べる＋今回のアドカレ記事を書くにあたり、
+<p>最後に、日ごろUSDを調べる＋今回のアドカレ記事を書くにあたり、<br>
 参考にしているサイトや各種リンクをご紹介します。</p>
 <p>公式</p>
 <ul>
@@ -165,7 +165,7 @@ Houdini １２日目に、コンポーネントビルダーについてを投稿
 <li><a href=https://github.com/Autodesk/maya-usd>https://github.com/Autodesk/maya-usd</a></li>
 <li><a href=https://github.com/GPUOpen-LibrariesAndSDKs/BlenderUSDHydraAddon>https://github.com/GPUOpen-LibrariesAndSDKs/BlenderUSDHydraAddon</a></li>
 <li><a href=https://docs.blender.org/manual/en/latest/files/import_export/usd.html>https://docs.blender.org/manual/en/latest/files/import_export/usd.html</a></li>
-<li><a href=https://learn.foundry.com/nuke/content/comp_environment/3d_compositing/usd.html>https://learn.foundry.com/nuke/content/comp_environment/3d_compositing/usd.html</a>
+<li><a href=https://learn.foundry.com/nuke/content/comp_environment/3d_compositing/usd.html>https://learn.foundry.com/nuke/content/comp_environment/3d_compositing/usd.html</a><br>
 ほかにもいろいろ。</li>
 <li><a href=https://www.nvidia.com/ja-jp/omniverse/>https://www.nvidia.com/ja-jp/omniverse/</a></li>
 </ul>
