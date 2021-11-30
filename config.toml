@@ -12,6 +12,7 @@ disableLanguages        = []
 
 [markup.goldmark.renderer]
   unsafe                = true
+  hardWraps = true
 
 [module]
   [module.hugoVersion]
