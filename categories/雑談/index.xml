@@ -32,7 +32,8 @@ HoudiniのSOLARISやBlenderUSDHydraAddon、Katana等を使用すればライテ�
 ですが、それと同時に（それ以上に）個人的USDはパイプラインを構築するためのツールだと思うので、
 そのUSDの仕組みや、その構造、ライブラリの機能を利用してどのようにパイプラインを構築できるのか？
 といったことが、とても大切なのではないかと思います。
-アドカレ記事について というわけで、アドカレを始めるにあたりどういった内容をメインにするか考えていましたが、
+アドカレ記事について というわけで、今回のアドカレを始めるにあたり
+自分の担当分をどういった内容をメインにするか考えていましたが、
 https://fereria.github.io/blog/posts/usdadventcalendar2021/
 事前の雑談Blogにも書きましたが、学習理由にもあるとおり以下のような方針でいきます。
 USDの機能や実装方法についてを書く（具体的な事例等は書かない） 過去記事・JupyterNotebookにだけ書いたような内容の記事化 DCCツールの使い方は書かない（Python C++ の実装側メイン） 自分の学習結果を書く Houdiniに関しては、
@@ -40,8 +41,7 @@ https://qiita.com/advent-calendar/2021/happrentice
 Houdini Apprentice ２日目に InlineUSDについて。
 https://qiita.com/advent-calendar/2021/houdini
 Houdini １２日目に、コンポーネントビルダーについてを投稿予定です。
-ある程度事前に調査・テスト実装などはしていますが、
-特にC++絡みは自分も勉強しながらなのでミスやら勘違いはお許しください（突っ込まれたら直します）</description></item><item><title>USDアドカレ対策</title><link>https://fereria.github.io/blog/posts/usdadventcalendar2021/</link><pubDate>Tue, 23 Nov 2021 20:49:01 +0900</pubDate><guid>https://fereria.github.io/blog/posts/usdadventcalendar2021/</guid><description>Universal Scene Description Advenc Calendar 2021 という狂気のアドカレをやると宣言してしまったのでここ最近準備をしているわけですが、
+ある程度事前に調査・テスト実装などはしていますが、</description></item><item><title>USDアドカレ対策</title><link>https://fereria.github.io/blog/posts/usdadventcalendar2021/</link><pubDate>Tue, 23 Nov 2021 20:49:01 +0900</pubDate><guid>https://fereria.github.io/blog/posts/usdadventcalendar2021/</guid><description>Universal Scene Description Advenc Calendar 2021 という狂気のアドカレをやると宣言してしまったのでここ最近準備をしているわけですが、
 このヤバい取り組みをどうやって乗り越えるかの作戦と基本方針について書いておこうと思います。
 埋めるのはヘルツさんと技師長師匠のお二人以外の20日分（＋Houdiniアドカレ１件）
 書くネタはそこそこあるので、埋められるとは思うものの、どういったこと書くといいのかは
