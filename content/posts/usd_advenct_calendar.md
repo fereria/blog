@@ -57,7 +57,8 @@ HoudiniのSOLARISやBlenderUSDHydraAddon、Katana等を使用すればライテ�
 
 ## アドカレ記事について
 
-というわけで、アドカレを始めるにあたりどういった内容をメインにするか考えていましたが、
+というわけで、今回のアドカレを始めるにあたり
+自分の担当分をどういった内容をメインにするか考えていましたが、
 [https://fereria.github.io/blog/posts/usdadventcalendar2021/](https://fereria.github.io/blog/posts/usdadventcalendar2021/)
 事前の雑談Blogにも書きましたが、学習理由にもあるとおり以下のような方針でいきます。
 
