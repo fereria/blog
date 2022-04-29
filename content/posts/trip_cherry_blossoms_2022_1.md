@@ -4,10 +4,6 @@ date: 2022-04-24T23:41:44+09:00
 draft: false
 categories: ["一人旅"]
 tags: ["桜_2022", "ロードバイク"]
-
-categories: []
-tags: []
-
 ---
 
 さて。
@@ -84,7 +80,7 @@ http://www.kankou-sakuragawa.jp/page/page000443.html
 
 帰りはそこそこな強さの向かい風で体力がゴリゴリ削られていき
 タイムはひどいことに。
-往復100kmを走ったのは久しぶりだったこともありボロボロになりました。
+往復 100km を走ったのは久しぶりだったこともありボロボロになりました。
 駐車場に戻ったら自転車を積み込んでホテルへ移動。
 
 ![](https://gyazo.com/8dd8e8bba2f7c032d71ee7887649e7b9.jpg)
@@ -98,4 +94,3 @@ http://www.kankou-sakuragawa.jp/page/page000443.html
 すごい久しぶりの桜旅でしたが、やはり桜はいいですね。
 
 <iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/6928663003/embed/1cae1e2f3ce2b792946ed2452c36a13676b7d90c'></iframe>
-
