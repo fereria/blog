@@ -1,7 +1,7 @@
 ---
 title: "桜を追いかける４月 １週目 ２日目 つくば～佐野"
 date: 2022-04-30T17:00:48+09:00
-draft: true
+draft: false
 categories: ["一人旅"]
 tags: ["桜_2022", "ドライブ"]
 ---
@@ -38,7 +38,7 @@ tags: ["桜_2022", "ドライブ"]
 
 ![](https://gyazo.com/370cffab63d4c835e5150060f629c8ef.jpg)
 
-イチゴシロップ用のイチゴをお安くGET。
+イチゴシロップ用のイチゴをお安く GET。
 普通に食べても甘くておいしい。
 
 ![](https://gyazo.com/e89f90c487ea12f392046560d40fb3ea.jpg)
