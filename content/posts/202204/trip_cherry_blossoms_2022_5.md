@@ -53,7 +53,7 @@ draft: flase
 
 {{<lightbox img="https://gyazo.com/4f3e769e7259b4815c7c626532385cd6.jpg">}}
 
-大★勝★利
+大 ★ 勝 ★ 利
 
 少々終わりかけにも見えましたが、かつてないぐらいのピンクにテンション上がりました。
 素晴らしい。
@@ -83,7 +83,7 @@ draft: flase
 
 {{<lightbox img="https://gyazo.com/099c1a21ae54d27d0570495075f92403.jpg">}}
 
-途中お休みスポットでQK
+途中お休みスポットで QK
 
 {{<lightbox img="https://gyazo.com/569eb482d3793d4d0aa85fdc044b065c.jpg">}}
 
@@ -92,7 +92,6 @@ draft: flase
 {{<lightbox img="https://gyazo.com/f9a5b56b9ffecf010477630462b656c6.jpg">}}
 
 上千本の撮影スポット近くでおひるごはんの柿の葉寿司を見ながらお花見。
-
 
 {{<lightbox img="https://gyazo.com/905509fa36978e23914b693cbc01ee16.jpg">}}
 
@@ -120,7 +119,6 @@ draft: flase
 {{<lightbox img="https://gyazo.com/9e60eb6c2c37f378129e36c0f37d529b.jpg">}}
 
 ボロボロの両足をなんとか奮い立たせで下千本を下ります。
-
 
 駅に着くころにはぐったりでした。
 

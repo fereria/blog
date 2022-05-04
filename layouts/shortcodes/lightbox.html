@@ -5,6 +5,17 @@
 
 {{- $title := .Get "title" -}}
 
-<figure class="pict"><a href="{{ $img }}" rel="lightbox[list]" data-lightbox="image-1" data-title="{{ $title  }}">  
-    <img src="{{ $img }}"> </a>
+
+<figure class="pict">
+  <a href="{{ $img }}" rel="lightbox[list]" data-title="{{ $title  }}" >  
+    <img src="{{ $img }}"> 
+  </a>
+  {{- if  $title -}}
+    <figcaption>{{ $title }} </figcaption>
+  {{ else }}
+    <figcaption> - </figcaption>
+  {{- end -}}
+
+  
 </figure>
+

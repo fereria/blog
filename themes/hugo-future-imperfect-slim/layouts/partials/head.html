@@ -1,6 +1,18 @@
 <head>
   <link href="{{ .Site.BaseURL }}css/lightbox.css" rel="stylesheet" />
   <script src="{{ .Site.BaseURL }}js/lightbox-plus-jquery.min.js"></script>  
+  
+  <script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'imageFadeDuration':200,
+      'fadeDuration':200,
+      'wrapAround': true,
+      'positionFromTop':100,
+      'wrapAround':true
+    });
+    </script>  
+    
   {{ partial "meta" . }}
   {{ hugo.Generator }}
   {{ if .Site.Params.enableCDN }}
