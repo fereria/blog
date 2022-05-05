@@ -2,6 +2,8 @@
 title: "桜を追いかける４月 ２週目 ２日目 京都（御苑、上賀茂、妙心寺）"
 date: 2022-05-01T18:17:29+09:00
 draft: false
+categories: ["一人旅"]
+tags: ["桜", "京都"]
 ---
 
 初日に哲学の道～南禅寺～原谷苑とまわってその翌日、２日目も引き続き京都をめぐります。
@@ -81,7 +83,7 @@ draft: false
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.9525471138004!2d135.81801026665258!3d34.68114709177006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60013a2e359869f1%3A0x484b00077d8ea851!2z44K544O844OR44O844Ob44OG44OrTG9oYXNKUuWliOiJr-mnhQ!5e0!3m2!1sja!2sjp!4v1651398695742!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-今日のホテルはLOHAS奈良。
+今日のホテルは LOHAS 奈良。
 奈良を旅行するときにはいつも使っているお風呂付のホテルです。
 
 以前とはいろいろルールが変わっていて、
