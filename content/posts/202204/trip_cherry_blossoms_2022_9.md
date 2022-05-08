@@ -77,7 +77,7 @@ draft: false
 クリームコロッケが非常においしかったです。
 
 渋峠を無事超えて、この日の宿のある白馬に向かいます。
-事前にルートを探して、鬼無里経由の道がよさそうだったので406号経由で走ります。
+事前にルートを探して、鬼無里経由の道がよさそうだったので 406 号経由で走ります。
 
 {{<lightbox img="https://gyazo.com/00c43764773de5e87304c321faf90159.jpg" title="">}}
 
@@ -89,6 +89,8 @@ draft: false
 そんなこんなで無事にホテルに到着。
 途中、トンネルを抜けた先に立山がすごい綺麗に見えるスポットがあったのですが
 先客が多かったので、翌日朝早めに撮影しに行くことにしました。
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16117.24288279211!2d137.8719082323965!3d36.72097254473979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff7ccc44e2cc817%3A0x7123f3d4b9e3648c!2z5pif6ZmN44KL6auY5Y6f44Gu5bCP44GV44Gq44Ob44OG44OrIOeZvemmrOODmeODq-OCsOODj-OCpuOCuQ!5e0!3m2!1sja!2sjp!4v1652008102139!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 宿は、ホテル白馬ベルグハウス。
 小さいホテルでしたが、個人的にはこれぐらいの規模のホテルがすきなので
