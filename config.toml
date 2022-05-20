@@ -178,3 +178,6 @@ disableLanguages        = []
   orcid                 = ""
   # Email
   email                 = "work@flame-daybreak.net"
+
+[permalinks]
+  posts = '/:year/:month/:slug'

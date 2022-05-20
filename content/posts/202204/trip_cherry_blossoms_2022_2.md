@@ -4,6 +4,7 @@ date: 2022-04-30T17:00:48+09:00
 draft: false
 categories: ["一人旅"]
 tags: ["桜_2022", "ドライブ"]
+slug: tukuba_2
 ---
 
 土浦で１泊して再開。

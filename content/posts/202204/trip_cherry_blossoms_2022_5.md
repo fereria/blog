@@ -4,6 +4,7 @@ date: 2022-05-04T18:55:01+09:00
 draft: flase
 categories: ["一人旅"]
 tags: ["奈良", "桜"]
+slug: kyoto_nara_3
 ---
 
 前日奈良駅のホテルに宿泊して爆睡して目が覚めたら朝６時。

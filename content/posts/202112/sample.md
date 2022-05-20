@@ -3,6 +3,7 @@ title: "Blog始めます"
 date: 2021-10-30T00:53:23+09:00
 draft: false
 categories: ["雑談"]
+slug: start_blog
 ---
 
 以前は Wordpress を使用した旅行・プログラミング・CG なんでも OK なごちゃまぜ Blog を運用していたのですが

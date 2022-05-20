@@ -1,0 +1,4 @@
+public/
+resources/_gen/assets/scss/blog/scss/
+blog.code-workspace
+.hugo_build.lock
