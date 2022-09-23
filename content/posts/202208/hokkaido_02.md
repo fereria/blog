@@ -206,7 +206,7 @@ tags: ["夏休み旅行2022", "マイカー"]
 今回の旅行は燃料代がやばいとはおもっていましたが
 燃費がそこそこ安定していたので多少の救いはありました。
 
-{{<lightbox img="https://gyazo.com/58aed342b1ef9ac2f3c4bcd5a28de8df.jpg" title="">}}
+{{<lightbox img="https://gyazo.com/58aed342b1ef9ac2f3c4bcd5a28de8df.png" title="">}}
 
 こちらはルート。
 さすがにきついかなーと思いましたが、ドライブ楽しいので距離の辛さは 0
