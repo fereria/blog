@@ -147,6 +147,8 @@ Pixel6a のナビが妙な挙動をしていて、自分が思っていた方向
 
 {{<lightbox img="https://gyazo.com/97423de4f7528b8b9aef89183e1ddc38.png" title="">}}
 
+{{<lightbox img="https://gyazo.com/bbd15855bd0363c1cce7fdd89b82ffa0.jpg" title="">}}
+
 5 日目はこんな感じに。
 稚内はやはり遠かった。
 
